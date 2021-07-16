@@ -25,7 +25,7 @@
             <td th:text="${st.name}"></td>
             <td th:text="${st.price}"></td>
             <td th:text="${st.quantity}"></td>
-            <td></td>
+            <td><a th:href="@{/products/edit/{id}(id=${st.id})}">Sall</a></td>
         </tr>
         </tbody>
     </table>
